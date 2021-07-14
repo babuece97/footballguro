@@ -110,9 +110,10 @@ p{
 
   /* footer end */
   /* Media queries start   */
-  @media screen and (max-width:768px){
-    .top-players .players .player {
-      margin: 0 auto
+  @media screen and (max-width:688px){
+    .players {
+      background-color: greenyellow;
+      grid-template-columns: repeat(1, 1fr);
     }
 
   }
