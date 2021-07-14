@@ -109,4 +109,15 @@ p{
 }
 
   /* footer end */
-  
+  /* Media queries start   */
+  @media screen and (max-width:768px){
+    .top-players .players .player {
+      margin: 0 auto
+    }
+
+  }
+
+
+
+
+   /* Media queries end   */
