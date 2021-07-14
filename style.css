@@ -32,3 +32,48 @@ p{
     margin: 75px;
     padding: 5px 15px;
 }
+
+/*top players style */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:30px;
+}
+.player img{
+    widows: 315px;
+    height:287px;
+}
+
+.statusBar {
+    /* border: 2px solid; */
+    margin: 4% 2%;
+    padding: 3%;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+  
+  .statusMain {
+    display: flex;
+    justify-content: space-between;
+  }
+  section.footer {
+    background-color: #111;
+    margin-top: 5%;
+  }
+  .footer h1 span {
+    color: rgb(255, 0, 200);
+  }
+  .footer h1 {
+    color: gray;
+    padding-top: 3%;
+  }
+  
+  .footer h3 {
+    color: #fff;
+    padding: 2% 0;
+  }
+  .text-center {
+    text-align: center;
+  }
+  /* footer end */
+  
